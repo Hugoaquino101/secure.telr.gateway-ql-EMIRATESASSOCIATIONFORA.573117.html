@@ -1,0 +1,378 @@
+
+@font-face
+{
+    font-family: 'microsoft_sans_serifregular';
+    src: url('fonts/micross-webfont.eot');
+    src: url('fonts/micross-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/micross-webfont.woff') format('woff'), url('fonts/micross-webfont.ttf') format('truetype'), url('fonts/micross-webfont.svg#microsoft_sans_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    font-family: sans-serif;
+}
+
+hr
+{
+    color: #ccc;
+    float: left;
+    margin: 1% 0;
+    width: 100%;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #134F7A;
+}
+.wrapper
+{
+    background: none repeat scroll 0 0 #d1e4f2;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 5px #eee;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0px 40px;
+    width: 100%;
+    float: left;
+}
+.wrapper .center
+{
+    border-radius: 5px;
+    padding-bottom: 5%; /* box-shadow: 0 5px 5px 5px #eee; */
+    background: none repeat scroll 0 0 #d1e4f2;
+    width: 980px;
+    margin-left: 20px;
+}
+.wrapper .center .center_inner
+{
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    width: 600px;
+}
+.header
+{
+    float: left;
+    width: 100%;
+}
+
+.header .check
+{
+    background: none repeat scroll 0 0 #d1e4f2;
+    float: left;
+    padding: 0%;
+    border-bottom: 1px solid #cccccc;
+    width: 60%;
+}
+.header .check .checkout
+{
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 0%;
+    width: 18%;
+}
+.header .check .step_main
+{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1.5% 0 0;
+    vertical-align: middle;
+    width: 15%;
+}
+.header .check .step_main .step
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo .page_main
+{
+    float: left;
+}
+.logo .page_main .page_tagline
+{
+    float: left;
+    margin-top: 5%;
+    font-weight: bold;
+    padding-left: 5%;
+    width:300px;
+    
+}
+.logo
+{
+    float: left;
+    width: 100%;
+}
+
+.center .logo .right .insurance
+{
+    margin-bottom: 12%;
+    vertical-align: super;
+}
+
+.right
+{
+    float: right;
+}
+
+.main
+{
+    margin: 0% 0 0 0;
+    float: left;
+    width: 100%;
+}
+.main .form form
+{
+    float: left;
+    padding: 0 3%;
+    width: 94%;
+}
+.main-margin
+{
+    float: left;
+    padding: 0 3%;
+    width: 94%;
+}
+.main-margin .ssl label
+{
+    display: block;
+    width: 160px;
+    text-align: right;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.main-margin .ssl
+{
+    font-size: 14px;
+}
+.font12 {
+    font-size: 12px;
+}
+.field span
+{
+    color: #ff0000;
+}
+.main .form form .field .credit_input
+{
+    width: 10%;
+}
+.main .form form .field .amount_main .amount_input
+{
+    width: 20%;
+}
+.field
+{
+    margin-bottom: 1%;
+}
+
+label
+{
+    font-size: 13px;
+}
+
+.desc
+{
+    font-size: 10px;
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-left: 14px;
+}
+
+.field input
+{
+    width: 220px;
+}
+
+.ssl
+{
+    background: none repeat scroll 0 0 #eee;
+    padding: 15px 20px;
+}
+
+.secured
+{
+    display: table;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.txt
+{
+    float: left;
+    width: 70%;
+    font-size: 13px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.topic
+{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    width: 320px;
+}
+
+.icon
+{
+    float: left;
+    width: 55px;
+}
+
+.field img
+{
+    vertical-align: middle;
+}
+
+
+.main .form form .what
+{
+    float: left;
+    margin-top: 2%;
+    width: 100%;
+}
+.main .form form .what .what_inner .what_tagline
+{
+    float: left;
+    font-weight: bold;
+    width: 100%;
+    font-size: 12px;
+}
+.main .form form .submit, .submit_button
+{
+    background: none repeat scroll 0 0 #3771a5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    margin-top: 2%;
+    padding: 1% 1.5%;
+}
+a.submit_button
+{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.main-margin .submit_button {
+    margin: 10px 5px;
+}
+.center_inner .main .footer
+{
+    float: left;
+    width: 100%;
+}
+.center_inner .main .footer .footer_img
+{
+    float: left;
+    width: 94%;
+    padding: 0 3%;
+}
+.center_inner .main .footer .footer_img .logo_right
+{
+    float: left;
+}
+.center_inner .main .footer .footer_txt
+{
+    float: left;
+    width: 100%;
+    color: #000;
+}
+.center_inner .main .footer .footer_txt p
+{
+    margin: 1% 0;
+}
+.center_inner .main .footer .footer_txt .footer_tagline
+{
+    float: left;
+    font-weight: bold;
+    border-bottom: 2px solid #e5ca63;
+    border-top: 2px solid #e5ca63;
+    text-align: center;
+    padding: 0.5% 0;
+    width: 100%;
+    font-size: 14px;
+}
+.center_inner .main .footer .footer_txt .txt-left
+{
+    float: left;
+    font-size: 10px;
+    padding: 0 1%;
+    width: 75%;
+}
+.center_inner .main .footer .footer_txt .txt-left a
+{
+    color: #000;
+    text-decoration: none;
+}
+.center_inner .main .footer .footer_txt .txt-right
+{
+    float: right;
+    width: 21%;
+    font-size: 10px;
+}
+.center_inner .main .footer .footer_txt .txt-right p span
+{
+    font-weight: bold;
+}
+.what
+{
+    font-size: 15px;
+}
+a.big-link:visited
+{
+	color: #1E0203;
+	font-family: Arial;
+	font-size: 14px;
+	text-decoration: underline;
+	font-weight: normal;
+	text-transform: none;
+}
+a.big-link:link
+{
+	color: #1E0203;
+	font-family: Arial;
+	font-size: 14px;
+	text-decoration: underline;
+	font-weight: normal;
+	text-transform: none;
+}
+a.hover
+{
+	color: #B2070D;
+	text-decoration: none;
+}
+.panel {
+    background: #eee;
+    margin-left: 5%;
+    width: 80%;
+}
+.status {
+    margin-bottom: 10px;
+}
+.error_dark {
+    color: #f00;
+}
+.error {
+    float: right;
+    width: 200px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid #ff0000;
+    background: #f2dede;
+    border-radius: 5px;
+}
+.error p {
+    margin-bottom: 0px;
+}
+div.ssl .field {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
